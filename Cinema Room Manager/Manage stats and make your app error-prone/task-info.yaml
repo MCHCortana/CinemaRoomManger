@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: src/cinema/Cinema.java
+    visible: true
+    learner_created: false
+  - name: test/CinemaTests.java
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11109#comment
+status: Failed
+feedback:
+  message: "Wrong answer in test #6\n\nWrong number of purchased tickets!\nFound:\
+    \ \nExpected: 0\n\nPlease find below the output of your program during this failed\
+    \ test.\nNote that the &#39;&gt;&#39; character indicates the beginning of the\
+    \ input line.\n\n---\n\nEnter the number of rows:\n&gt; 9\nEnter the number of\
+    \ seats in each row:\n&gt; 9\n1. Show the seats\n2. Buy a ticket\n3. Statistics\n\
+    0. Exit\n&gt; 3\nNumber of purchased tickets: \nPercentage: 0.0%\nCurrent income:\
+    \ $0Total income: $7201. Show the seats\n2. Buy a ticket\n3. Statistics\n0. Exit"
+  time: "Mon, 19 Aug 2024 18:08:20 UTC"
+record: -1
