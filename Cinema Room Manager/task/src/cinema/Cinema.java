@@ -101,14 +101,14 @@ public class Cinema {
                 }
             }
         }
-        float percentBought = ((float) purchasedTickets[1] / seatsInRoom) * 100;
+        float percentBought = ((float) purchasedTickets[0] / seatsInRoom) * 100;
         String percentBoughtFormatted = String.format("%.2f", percentBought);
 
 
 
         System.out.printf("Number of purchased tickets: %d%n", purchasedTickets[0]);
         System.out.println("Percentage: " + percentBoughtFormatted + "%");
-        System.out.printf("Current income: $%d", purchasedTickets[1]);
+        System.out.printf("Current income: $%d%", purchasedTickets[1]);
         System.out.printf("Total income: $%d%n", totalIncome);
     }
 
